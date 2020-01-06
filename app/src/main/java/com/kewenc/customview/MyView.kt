@@ -20,20 +20,20 @@ class MyView : View {
 //        Log.e("TAGF",mode.shr(30).toString() + "_" + size)
     }
 
-    override fun onTouchEvent(event: MotionEvent?): Boolean {
-         when(event?.actionMasked) {
-             MotionEvent.ACTION_DOWN -> Log.e("TAGF","MotionEvent.ACTION_DOWN="+MotionEvent.ACTION_DOWN)
-             MotionEvent.ACTION_UP -> Log.e("TAGF","MotionEvent.ACTION_UP="+MotionEvent.ACTION_UP)
-             MotionEvent.ACTION_MOVE -> Log.e("TAGF","MotionEvent.ACTION_MOVE="+MotionEvent.ACTION_MOVE)
-             MotionEvent.ACTION_CANCEL -> Log.e("TAGF","MotionEvent.ACTION_CANCEL="+MotionEvent.ACTION_CANCEL)
-             MotionEvent.ACTION_OUTSIDE -> Log.e("TAGF","MotionEvent.ACTION_OUTSIDE="+MotionEvent.ACTION_OUTSIDE)
-             MotionEvent.ACTION_POINTER_DOWN -> Log.e("TAGF","MotionEvent.ACTION_POINTER_DOWN="+MotionEvent.ACTION_POINTER_DOWN)
-             MotionEvent.ACTION_POINTER_UP -> Log.e("TAGF","MotionEvent.ACTION_POINTER_UP="+MotionEvent.ACTION_POINTER_UP)
-         }
-//        when(event?.actionMasked) {
-//            MotionEvent.ACTION_POINTER_DOWN -> Log.e("TAGF","_MotionEvent.ACTION_POINTER_DOWN="+MotionEvent.ACTION_POINTER_DOWN)
-//            MotionEvent.ACTION_POINTER_UP -> Log.e("TAGF","_MotionEvent.ACTION_POINTER_UP="+MotionEvent.ACTION_POINTER_UP)
-//        }
-        return true
-    }
+//    override fun onTouchEvent(event: MotionEvent?): Boolean {
+//         when(event?.actionMasked) {
+//             MotionEvent.ACTION_DOWN -> Log.e("TAGF","MotionEvent.ACTION_DOWN="+MotionEvent.ACTION_DOWN)
+//             MotionEvent.ACTION_UP -> Log.e("TAGF","MotionEvent.ACTION_UP="+MotionEvent.ACTION_UP)
+//             MotionEvent.ACTION_MOVE -> Log.e("TAGF","MotionEvent.ACTION_MOVE="+MotionEvent.ACTION_MOVE)
+//             MotionEvent.ACTION_CANCEL -> Log.e("TAGF","MotionEvent.ACTION_CANCEL="+MotionEvent.ACTION_CANCEL)
+//             MotionEvent.ACTION_OUTSIDE -> Log.e("TAGF","MotionEvent.ACTION_OUTSIDE="+MotionEvent.ACTION_OUTSIDE)
+//             MotionEvent.ACTION_POINTER_DOWN -> Log.e("TAGF","MotionEvent.ACTION_POINTER_DOWN="+MotionEvent.ACTION_POINTER_DOWN)
+//             MotionEvent.ACTION_POINTER_UP -> Log.e("TAGF","MotionEvent.ACTION_POINTER_UP="+MotionEvent.ACTION_POINTER_UP)
+//         }
+////        when(event?.actionMasked) {
+////            MotionEvent.ACTION_POINTER_DOWN -> Log.e("TAGF","_MotionEvent.ACTION_POINTER_DOWN="+MotionEvent.ACTION_POINTER_DOWN)
+////            MotionEvent.ACTION_POINTER_UP -> Log.e("TAGF","_MotionEvent.ACTION_POINTER_UP="+MotionEvent.ACTION_POINTER_UP)
+////        }
+//        return true
+//    }
 }
